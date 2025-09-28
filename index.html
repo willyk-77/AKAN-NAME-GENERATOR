@@ -1,31 +1,30 @@
-<!Doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Akan Name Generator</title>
-    <link href="styles.css" rel="stylesheet">
+    <title>Akan Name Gen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Akan Name Generator</h1>
-    <p>Enter ooth your birth date & your gender to see your Akan name.</p>
+    <h1>Akan Name Gen.</h1>
+    <p>Enter your Birth Date and Gender to generate your Akan name.</p>
 
-    <form id="akanForm">
-        <label for="birthdate">Birth date:</label>
+    <form id="akan_gen_Form">
+        <label for="birthdate">Birth Date:</label>
         <input type="date" id="birthdate" name="birthdate" required>
+        <br><br>
 
-        <p>Gender:
-            <label><input type="radio" name="gender" value="male"> Male</label>
-            <label><input type="radio" name="gender" value="female"> Female</label>
-        </p>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
 
-        <button type="submit">Get my Akan name</button>
+        <button type="submit">Get Akan Name</button>
         <button type="reset" id="resetBtn">Clear</button>
     </form>
 
-    <div id="result" style="display:none;">
+    <div id="result" style="display:none; margin-top:20px;">
         <h2>Your Akan Name</h2>
         <p id="nameLine"></p>
         <p id="explainLine"></p>
@@ -76,6 +75,9 @@
     </table>
 
     <script src="script.js"></script>
+</body>
+
+</html>
 </body>
 
 </html>
