@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Akan Name Generator</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Akan Name Generator</h1>
+    <p>Enter ooth your birth date & your gender to see your Akan name.</p>
+
+    <form id="akanForm">
+        <label for="birthdate">Birth date:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+
+        <p>Gender:
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </p>
+
+        <button type="submit">Get my Akan name</button>
+        <button type="reset" id="resetBtn">Clear</button>
+    </form>
+
+    <div id="result" style="display:none;">
+        <h2>Your Akan Name</h2>
+        <p id="nameLine"></p>
+        <p id="explainLine"></p>
+    </div>
+
+    <h3>Akan Names by Day</h3>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Male</th>
+            <th>Female</th>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Kwasi</td>
+            <td>Akosua</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Kwadwo</td>
+            <td>Adwoa</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Kwabena</td>
+            <td>Abenaa</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Kwaku</td>
+            <td>Akua</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Yaw</td>
+            <td>Yaa</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Kofi</td>
+            <td>Afua</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>Kwame</td>
+            <td>Ama</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
