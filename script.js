@@ -1,4 +1,4 @@
-// Akan names
+// Gather data
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const maleNames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 const femaleNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
@@ -9,14 +9,14 @@ const nameLine = document.getElementById('namedisp');
 const explainLine = document.getElementById('descdisp');
 const resetBtn = document.getElementById('resetButton');
 
-// Clear result when reset is clicked
+// Clear results
 resetBtn.addEventListener('click', function () {
     result.style.display = 'none';
     namedisp.textContent = '';
     descdisp.textContent = '';
 });
 
-// Handle form submit
+// Submit
 form.addEventListener('submit', function (event) {
     event.preventDefault();
 

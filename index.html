@@ -7,72 +7,76 @@
 </head>
 
 <body>
-    <h1>Akan Name Gen.</h1>
-    <p>Enter your Birth Date and Gender to generate your Akan name.</p>
+    <div id="wrapperdiv">
+        <h1>Akan Name Gen.</h1>
+        <p>Enter your Birth Date and Gender to generate your Akan name.</p>
 
-    <form id="akan_gen_Form">
-        <label for="birthdate">Birth Date:</label>
-        <input type="date" id="birthdate" name="birthdate" required>
-        <br><br>
+        <form id="akan_gen_Form">
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <br><br>
 
-        <label>Gender:</label>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br><br>
 
-        <button type="submit">Get Akan Name</button>
-        <button type="reset" id="resetButton">Clear</button>
-    </form>
+            <button type="submit">Submit</button>
+            <button type="reset" id="resetButton">Clear</button>
+        </form>
 
-    <div id="result" style="display:none; margin-top:20px;">
-        <h2>Your Akan Name</h2>
-        <p id="namedisp"></p>
-        <p id="descdisp"></p>
+        <div id="result" style="display:none; margin-top:20px;">
+            <h2>Your Akan Name</h2>
+            <p id="namedisp"></p>
+            <p id="descdisp"></p>
+        </div>
+
+        <h3>Akan Names by Day</h3>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Male</th>
+                <th>Female</th>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Kwasi</td>
+                <td>Akosua</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Kwadwo</td>
+                <td>Adwoa</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Kwabena</td>
+                <td>Abenaa</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Kwaku</td>
+                <td>Akua</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Yaw</td>
+                <td>Yaa</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Kofi</td>
+                <td>Afua</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Kwame</td>
+                <td>Ama</td>
+            </tr>
+        </table>
+
     </div>
 
-    <h3>Akan Names by Day</h3>
-    <table>
-        <tr>
-            <th>Day</th>
-            <th>Male</th>
-            <th>Female</th>
-        </tr>
-        <tr>
-            <td>Sunday</td>
-            <td>Kwasi</td>
-            <td>Akosua</td>
-        </tr>
-        <tr>
-            <td>Monday</td>
-            <td>Kwadwo</td>
-            <td>Adwoa</td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td>Kwabena</td>
-            <td>Abenaa</td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>Kwaku</td>
-            <td>Akua</td>
-        </tr>
-        <tr>
-            <td>Thursday</td>
-            <td>Yaw</td>
-            <td>Yaa</td>
-        </tr>
-        <tr>
-            <td>Friday</td>
-            <td>Kofi</td>
-            <td>Afua</td>
-        </tr>
-        <tr>
-            <td>Saturday</td>
-            <td>Kwame</td>
-            <td>Ama</td>
-        </tr>
-    </table>
 
     <script src="script.js"></script>
 </body>
