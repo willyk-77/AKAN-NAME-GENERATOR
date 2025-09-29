@@ -23,7 +23,7 @@ The user enters their birth date and chooses their gender. The program checks if
 - JavaScript
 
 ## Live Link
-
+https://willyk-77.github.io/AKAN-NAME-GENERATOR/
 
 ## License
 William Kahare Matenjwa
